@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { getClientConfig } from './clientConfig';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -12,19 +13,24 @@ import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 import Footer from './components/Footer';
 
+// URL se client slug nikalo
+// Example: yoursite.vercel.app/sps-boys-hostel → "sps-boys-hostel"
+const slug = window.location.pathname.replace('/', '').split('/')[0];
+const config = getClientConfig(slug);
+
 export default function App() {
   return (
     <div className="min-h-screen font-sans bg-warm-white text-ink">
-      <Navbar />
+      <Navbar config={config} />
       <main>
-        <Hero />
-        <About />
-        <Rooms />
-        <Reviews />
-        <Contact />
+        <Hero config={config} />
+        <About config={config} />
+        <Rooms config={config} />
+        <Reviews config={config} />
+        <Contact config={config} />
       </main>
-      <Footer />
-      <WhatsAppButton />
+      <Footer config={config} />
+      <WhatsAppButton config={config} />
     </div>
   );
 }
