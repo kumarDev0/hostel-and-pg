@@ -334,6 +334,67 @@ export const clients: Record<string, ClientConfig> = {
     },
   ],
 },
+
+"youth-living-pg": {
+  hostelName: "Youth Living PG",
+  tagline: "Modern living for the youth of today.",
+  description: "Experience modern comfort and vibrant community living at Youth Living PG, located in the heart of Hinjawadi, Pune.",
+  phone: "09503140404",
+  whatsapp: "919503140404",
+  email: "contact@youthlivingpg.com",
+  address: "Narayan Nagar, Phase 1, Hinjawadi, Pune, Maharashtra 411057",
+  heroImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2080&auto=format&fit=crop",
+  aboutImage: "https://i.postimg.cc/431Kpq5g/img4.png",
+  rooms: [
+    {
+      id: 1,
+      name: "Private Room",
+      type: "Single Occupancy",
+      price: "₹10k",
+      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=2074&auto=format&fit=crop",
+      desc: "Modern private room with high-speed WiFi, AC and all amenities.",
+    },
+    {
+      id: 2,
+      name: "Shared Room",
+      type: "Double Occupancy",
+      price: "₹7k",
+      image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop",
+      desc: "Comfortable shared room with study table, wardrobe and secure lockers.",
+    },
+    {
+      id: 3,
+      name: "Deluxe Room",
+      type: "Triple Occupancy",
+      price: "₹5k",
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop",
+      desc: "Affordable modern stay with all basic amenities and common area access.",
+    },
+  ],
+  reviews: [
+    {
+      id: 1,
+      name: "Rohan Mehta",
+      location: "Pune, India",
+      text: "Best PG in Hinjawadi! Very clean, modern facilities and great location near IT park.",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Akash Joshi",
+      location: "Mumbai, India",
+      text: "Amazing place to stay! High speed WiFi, clean rooms and very cooperative staff.",
+      rating: 5,
+    },
+    {
+      id: 3,
+      name: "Neha Kulkarni",
+      location: "Nashik, India",
+      text: "Very comfortable and safe PG. Great value for money. Highly recommended!",
+      rating: 5,
+    },
+  ],
+},
   
 };
 
