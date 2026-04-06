@@ -274,6 +274,66 @@ export const clients: Record<string, ClientConfig> = {
   ],
 },
 
+"divyaprabha-girls-hostel": {
+  hostelName: "Divyaprabha Girls Hostel",
+  tagline: "A peaceful and secure home for girls.",
+  description: "Experience safety, comfort and homely atmosphere at Divyaprabha Girls Hostel, located in Gautam Nagar, Bhopal.",
+  phone: "09425012618",
+  whatsapp: "919425012618",
+  email: "contact@divyaprabhahostel.com",
+  address: "M-167, Gautam Nagar, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
+  heroImage: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?q=80&w=2074&auto=format&fit=crop",
+  aboutImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
+  rooms: [
+    {
+      id: 1,
+      name: "Private Room",
+      type: "Single Occupancy",
+      price: "₹9k",
+      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=2074&auto=format&fit=crop",
+      desc: "Comfortable private room with all amenities and 24/7 security.",
+    },
+    {
+      id: 2,
+      name: "Shared Room",
+      type: "Double Occupancy",
+      price: "₹6k",
+      image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop",
+      desc: "Spacious shared room with privacy curtains and secure lockers.",
+    },
+    {
+      id: 3,
+      name: "Deluxe Room",
+      type: "Triple Occupancy",
+      price: "₹4k",
+      image: "https://i.postimg.cc/tCbjGw5y/img2.png",
+      desc: "Affordable and comfortable stay with all basic amenities included.",
+    },
+  ],
+  reviews: [
+    {
+      id: 1,
+      name: "Kavita Singh",
+      location: "Bhopal, India",
+      text: "Very safe and homely environment. Staff is very caring. Best girls hostel in Bhopal!",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Pooja Sharma",
+      location: "Jabalpur, India",
+      text: "Clean rooms, good food and very secure. Felt very safe here. Highly recommended!",
+      rating: 5,
+    },
+    {
+      id: 3,
+      name: "Ritu Verma",
+      location: "Indore, India",
+      text: "Excellent facilities and very supportive staff. Felt like home away from home!",
+      rating: 5,
+    },
+  ],
+},
   
 };
 
