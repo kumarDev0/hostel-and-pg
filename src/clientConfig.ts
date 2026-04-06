@@ -151,7 +151,72 @@ export const clients: Record<string, ClientConfig> = {
       },
     ],
   },
+
+  "virat-boys-hostel": {
+  hostelName: "Virat Boys Hostel",
+  tagline: "Your perfect stay awaits.",
+  description: "Experience comfort and warm hospitality at Virat Boys Hostel, located in the heart of Bhopal.",
+  phone: "08764529026",
+  whatsapp: "918764529026",
+  email: "contact@viratboyshostel.com",
+  address: "Ward No 26, Krishnapuri Colony, Neelbad, Bhopal, Madhya Pradesh 462044",
+  heroImage: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop",
+  aboutImage: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070&auto=format&fit=crop",
+  rooms: [
+    {
+      id: 1,
+      name: "The Private Suite",
+      type: "Private Room",
+      price: "₹12k",
+      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=2074&auto=format&fit=crop",
+      desc: "A serene private room with an en-suite bathroom, queen bed, and city views.",
+    },
+    {
+      id: 2,
+      name: "The Cozy Dorm",
+      type: "4-Bed Mixed Dorm",
+      price: "₹7k",
+      image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop",
+      desc: "Comfortable bunk beds with privacy curtains, reading lights, and secure lockers.",
+    },
+    {
+      id: 3,
+      name: "The Deluxe Dorm",
+      type: "6-Bed Dorm",
+      price: "₹15k",
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop",
+      desc: "Spacious and bright dorm with premium mattresses and attached bathroom.",
+    },
+  ],
+  reviews: [
+    {
+      id: 1,
+      name: "Rahul Sharma",
+      location: "Bhopal, India",
+      text: "Amazing hospitality! The staff is very friendly and the rooms are super clean. Best hostel in Bhopal!",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Amit Kumar",
+      location: "Indore, India",
+      text: "Great value for money. The location is perfect and very comfortable stay.",
+      rating: 5,
+    },
+    {
+      id: 3,
+      name: "Priya Patel",
+      location: "Delhi, India",
+      text: "Very clean and well maintained. The staff is helpful and friendly.",
+      rating: 5,
+    },
+  ],
+},
+
+  
 };
+
+
 
 export function getClientConfig(slug: string): ClientConfig {
   return clients[slug] || clients["sps-boys-hostel"];
