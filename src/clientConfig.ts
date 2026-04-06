@@ -100,7 +100,7 @@ export const clients: Record<string, ClientConfig> = {
     email: "hello@sunerihostel.com",
     address: "456 Gold Street, Mumbai, India",
     heroImage: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=2070&auto=format&fit=crop",
-    aboutImage: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
+    aboutImage: "https://www.google.com/maps/place/Suneri+Hostel+Guest+House+Home+Stay/@23.2031735,77.3425201,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBCsNw40QascnkBvPwNGMkq!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHVAwep2yyZNWqOwf6Z4BkcOK7g09SXyDI7PodL8p0CL_K3-_LzXy9CIj2wVOPGv9F8DGNGRVNC7TvwrS3Qchb8dMGvASlzPf-1_Et9jxm1TGqMKCVnm7Bm5ZP5Bxgaxw2nB5C1yiTtTzM9K18Zo%3Dw203-h152-k-no!7i4000!8i3000!4m19!1m9!3m8!1s0x397c5dd014f9048f:0x18220984e2a6a67!2sSuneri+Hostel+Guest+House+Home+Stay!8m2!3d23.2032184!4d77.342537!9m1!1b1!16s%2Fg%2F11v0jx2vhs!3m8!1s0x397c5dd014f9048f:0x18220984e2a6a67!8m2!3d23.2032184!4d77.342537!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11v0jx2vhs?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D#",
     rooms: [
       {
         id: 1,
