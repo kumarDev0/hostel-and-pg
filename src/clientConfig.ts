@@ -395,6 +395,67 @@ export const clients: Record<string, ClientConfig> = {
     },
   ],
 },
+
+"ornate-pg-hinjawadi": {
+  hostelName: "Ornate PG Hinjawadi",
+  tagline: "Elegant living in the IT hub of Pune.",
+  description: "Experience elegant and comfortable living at Ornate PG, located right in Hinjawadi Rajiv Gandhi Infotech Park, Pune.",
+  phone: "09325575355",
+  whatsapp: "919325575355",
+  email: "contact@ornatepg.com",
+  address: "Mann Road, in front of The Cliff Garden, Phase 3, Hinjawadi Rajiv Gandhi Infotech Park, Pune, Maharashtra 411057",
+  heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop",
+  aboutImage: "https://i.postimg.cc/K8SwMHjY/img5.png",
+  rooms: [
+    {
+      id: 1,
+      name: "Premium Room",
+      type: "Single Occupancy",
+      price: "₹12k",
+      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=2074&auto=format&fit=crop",
+      desc: "Elegant private room with AC, high-speed WiFi and premium furnishings.",
+    },
+    {
+      id: 2,
+      name: "Shared Room",
+      type: "Double Occupancy",
+      price: "₹8k",
+      image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop",
+      desc: "Comfortable shared room with study table, wardrobe and secure lockers.",
+    },
+    {
+      id: 3,
+      name: "Deluxe Room",
+      type: "Triple Occupancy",
+      price: "₹6k",
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop",
+      desc: "Affordable and elegant stay with all modern amenities included.",
+    },
+  ],
+  reviews: [
+    {
+      id: 1,
+      name: "Rahul Desai",
+      location: "Pune, India",
+      text: "Best PG near Hinjawadi IT Park! Very elegant rooms and excellent facilities.",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Amit Kulkarni",
+      location: "Mumbai, India",
+      text: "Great location, clean rooms and very professional staff. Highly recommended!",
+      rating: 5,
+    },
+    {
+      id: 3,
+      name: "Priya Joshi",
+      location: "Nashik, India",
+      text: "Very comfortable and safe PG. Perfect for IT professionals working in Hinjawadi.",
+      rating: 5,
+    },
+  ],
+},
   
 };
 
