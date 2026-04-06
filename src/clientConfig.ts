@@ -161,7 +161,7 @@ export const clients: Record<string, ClientConfig> = {
   email: "contact@viratboyshostel.com",
   address: "Ward No 26, Krishnapuri Colony, Neelbad, Bhopal, Madhya Pradesh 462044",
   heroImage: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop",
-  aboutImage: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070&auto=format&fit=crop",
+  aboutImage: "https://i.postimg.cc/HnMJFRdv/virat-jpg.png",
   rooms: [
     {
       id: 1,
