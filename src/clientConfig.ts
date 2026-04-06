@@ -283,7 +283,7 @@ export const clients: Record<string, ClientConfig> = {
   email: "contact@divyaprabhahostel.com",
   address: "M-167, Gautam Nagar, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
   heroImage: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?q=80&w=2074&auto=format&fit=crop",
-  aboutImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
+  aboutImage: "https://i.postimg.cc/tCbjGw5y/img2.png",
   rooms: [
     {
       id: 1,
@@ -306,7 +306,7 @@ export const clients: Record<string, ClientConfig> = {
       name: "Deluxe Room",
       type: "Triple Occupancy",
       price: "₹4k",
-      image: "https://i.postimg.cc/tCbjGw5y/img2.png",
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop",
       desc: "Affordable and comfortable stay with all basic amenities included.",
     },
   ],
