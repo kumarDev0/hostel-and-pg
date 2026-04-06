@@ -213,6 +213,67 @@ export const clients: Record<string, ClientConfig> = {
   ],
 },
 
+"astha-niketan-girls-hostel": {
+  hostelName: "Astha Niketan Girls' Hostel",
+  tagline: "A safe and comfortable home for girls.",
+  description: "Experience safety, comfort and warm hospitality at Astha Niketan Girls' Hostel, located in Maharana Pratap Nagar, Bhopal.",
+  phone: "09165572900",
+  whatsapp: "919165572900",
+  email: "contact@asthaniketanhostel.com",
+  address: "94, Zone-II, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
+  heroImage: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=2070&auto=format&fit=crop",
+  aboutImage: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=2071&auto=format&fit=crop",
+  rooms: [
+    {
+      id: 1,
+      name: "Private Room",
+      type: "Single Occupancy",
+      price: "₹8k",
+      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=2074&auto=format&fit=crop",
+      desc: "Comfortable private room with all amenities and 24/7 security.",
+    },
+    {
+      id: 2,
+      name: "Shared Room",
+      type: "Double Occupancy",
+      price: "₹5k",
+      image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=2069&auto=format&fit=crop",
+      desc: "Spacious shared room with privacy curtains and secure lockers.",
+    },
+    {
+      id: 3,
+      name: "Deluxe Room",
+      type: "Triple Occupancy",
+      price: "₹4k",
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop",
+      desc: "Affordable and comfortable stay with all basic amenities included.",
+    },
+  ],
+  reviews: [
+    {
+      id: 1,
+      name: "Priya Sharma",
+      location: "Bhopal, India",
+      text: "Very safe and comfortable hostel for girls. Staff is very caring and helpful. Highly recommended!",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Sneha Patel",
+      location: "Indore, India",
+      text: "Best girls hostel in Bhopal! Clean rooms, good food and very secure environment.",
+      rating: 5,
+    },
+    {
+      id: 3,
+      name: "Anita Verma",
+      location: "Delhi, India",
+      text: "Felt like home! The warden is very supportive and the facilities are excellent.",
+      rating: 5,
+    },
+  ],
+},
+
   
 };
 
